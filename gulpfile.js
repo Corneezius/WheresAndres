@@ -34,7 +34,7 @@ gulp.task('jsBrowserify', ['concatInterface'], function() {
 });
 
 gulp.task('concatInterface', function() {
-  return gulp.src(['./js/weather.js', './js/weather-interface.js', './js/time-interface.js'])
+  return gulp.src(['./js/andres.js', './js/andres-interface.js', './js/time-interface.js'])
     .pipe(concat('allConcat.js'))
     .pipe(gulp.dest('./tmp'));
 });
